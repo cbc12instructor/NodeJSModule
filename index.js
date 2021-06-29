@@ -1,16 +1,19 @@
-class FakeApi {
+class Weather {
 
- 	constructor(name) {
+ 	constructor(zipcode) {
  		this.name = name;
 		this.secretMessage = function() {
 			console.log('haha');
 		}
 	}
 
-	getName() {
+	getWeather() {
+		// fetch weather info from weather.com
 		return this.name;
 	}
 
 }
+
+console.log('module is loading...');
 
 module.exports = FakeApi;
