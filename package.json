@@ -1,0 +1,23 @@
+{
+  "name": "nodejsmodule",
+  "version": "1.0.0",
+  "description": "My first module!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbc12instructor/NodeJSModule.git"
+  },
+  "author": "Eric Harrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbc12instructor/NodeJSModule/issues"
+  },
+  "homepage": "https://github.com/cbc12instructor/NodeJSModule#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  }
+}
